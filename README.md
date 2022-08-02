@@ -10,7 +10,7 @@ Elemanları birden çok katmanlı listelerden ([[3],2] gibi) oluşabileceği gib
 input: [[1,'a',['cat'],2],[[[3]],'dog'],4,5]
 output: [1,'a','cat',2,3,'dog',4,5]
 
-```
+```python
 liste = [[1,'a',['cat'],2],[[[3]],'dog'],4,5]
 #input için liste
 
@@ -39,7 +39,7 @@ print(output)
 input: [[1, 2], [3, 4], [5, 6, 7]]
 output: [[[7, 6, 5], [4, 3], [2, 1]]
 
-```
+```python
 inp = [[1, 2], [3, 4], [5, 6, 7]]
 #input için liste
 out = []
